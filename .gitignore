@@ -1,0 +1,16 @@
+# Build files
+build/
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+
+# Executables
+ChatApp
+MyTests
+
+# SQLite database files
+chatapp.db
+
+# Logs
+*.log
