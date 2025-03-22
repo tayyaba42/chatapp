@@ -41,6 +41,7 @@ make
 ## 2️⃣ Running the Server
 Once you have built the project, you can run the server:
 ```bash
+cd build
 ./ChatApp
 ```
 By default, it listens on port **12345**.
@@ -67,7 +68,8 @@ ctest --output-on-failure
 ```
 Or manually run the test binary:
 ```bash
-./test_chatapp
+cd build
+./MyTests
 ```
 
 ## 6️⃣ Using Makefile for Building
