@@ -55,7 +55,7 @@ Now you can type messages and interact with the chat server. Type `quit` to clos
 ## 4️⃣ Verifying Database Storage
 Chat messages are stored in an SQLite3 database. To verify stored messages:
 ```bash
-sqlite3 chatapp.db "SELECT * FROM messages;"
+sqlite3 chatapp.db "SELECT * FROM chat_messages;"
 ```
 This will display all stored chat messages.
 
